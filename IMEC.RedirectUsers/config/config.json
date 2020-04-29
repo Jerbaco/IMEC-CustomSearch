@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "imec-redirect-users-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/imecRedirectUsers/ImecRedirectUsersApplicationCustomizer.js",
+          "manifest": "./src/extensions/imecRedirectUsers/ImecRedirectUsersApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ImecRedirectUsersApplicationCustomizerStrings": "lib/extensions/imecRedirectUsers/loc/{locale}.js"
+  }
+}

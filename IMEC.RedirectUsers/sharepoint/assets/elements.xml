@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ImecRedirectUsers"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="d50eb447-fa97-42bc-969e-cb6e0c24d946"
+        ClientSideComponentProperties="{&quot;groupWhitelist&quot;:&quot;Owners&quot;}">
+    </CustomAction>
+</Elements>
